@@ -2,8 +2,6 @@ uchiwa:
   container_name: uchiwa
   restart: always
   image: uchiwa
-  volumes:
-    - ./data:/config
   ports:
     - "3000:3000"
   external_links:
